@@ -85,6 +85,10 @@ card:
 
 This creates a launcher card that opens a sheet from the **right side**.
 
+<p align="center">
+  <img src="images/showcase-1.gif" width="650">
+</p>
+
 ---
 
 # Triggering the Sheet
@@ -139,7 +143,7 @@ toggle
 | `launcher_class`        | string  | none      | Custom CSS class          |
 | `launcher_style`        | CSS     | none      | Custom CSS styling        |
 
-### Example
+### 🧩 Example
 
 ```yaml
 launcher_style: |
@@ -152,6 +156,10 @@ launcher_style: |
     --mdc-icon-size: 22px;
   }
 ```
+
+<p align="center">
+  <img src="images/showcase-2.png" width="650">
+</p>
 
 ---
 
@@ -177,6 +185,10 @@ badge_style: |
   top: -6px;
   right: -6px;
 ```
+
+<p align="center">
+  <img src="images/showcase-3.png" width="650">
+</p>
 
 ---
 
