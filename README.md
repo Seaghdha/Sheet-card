@@ -38,18 +38,6 @@ The card is designed to be:
 
 # 📦 Installation
 
-## HACS (recommended)
-
-Search for:
-
-```
-Sheet Card
-```
-
-Install and reload resources.
-
----
-
 ## Manual
 
 Copy the file:
