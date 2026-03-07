@@ -1,3 +1,8 @@
+![Home
+Assistant](https://img.shields.io/badge/Home%20Assistant-2023.0%2B-blue?logo=home-assistant)
+![Lovelace](https://img.shields.io/badge/Lovelace-Custom%20Card-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # 📝 Sheet Card for Home Assistant
 
 **Sheet Card** brings a reusable **edge-sheet / drawer pattern** to Home Assistant dashboards.
