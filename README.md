@@ -1,4 +1,4 @@
-# Sheet Card for Home Assistant
+# 📝 Sheet Card for Home Assistant
 
 **Sheet Card** brings a reusable **edge-sheet / drawer pattern** to Home Assistant dashboards.
 It allows you to open a slide-in panel from any screen edge containing any Lovelace card.
@@ -14,7 +14,7 @@ The card is designed to be:
 
 ---
 
-# Features
+# ✨ Features
 
 * Slide-in **sheet panel from any edge** (left, right, top, bottom)
 * **Launcher card** or **icon button**
@@ -29,7 +29,7 @@ The card is designed to be:
 
 ---
 
-# Installation
+# 📦 Installation
 
 ## HACS (recommended)
 
@@ -109,7 +109,7 @@ toggle
 
 ---
 
-# Configuration
+# ⚙️ Configuration
 
 ## Main Options
 
