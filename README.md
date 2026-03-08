@@ -309,6 +309,48 @@ launcher_style: |
 
 ---
 
+## Hiding the Launcher / Removing the Card from Layout
+
+In some setups the sheet-card is used only as a sheet provider, triggered from other UI elements (for example navbar-card, button-card, or other custom controls).
+In these cases the launcher does not need to be visible on the dashboard.
+
+You can completely remove the card from the layout using card-mod.
+
+Example:
+
+```yaml
+type: custom:sheet-card
+sheet_id: shopping
+
+card_mod:
+  style: |
+    :host {
+      display: none;
+    }
+```
+
+This will:
+
+hide the launcher
+
+remove the card from the layout
+
+still allow the sheet to be opened using sheet_id or other triggers
+
+Example trigger from another card:
+
+```yaml
+tap_action:
+  action: fire-dom-event
+  sheet_card:
+    action: open
+    id: shopping
+```
+
+This pattern allows sheet-card to behave as a global sheet controller while being triggered from anywhere in the dashboard.
+
+---
+
 # Example: Advanced Sheet
 
 ```yaml
@@ -384,6 +426,8 @@ Pull requests and improvements are welcome.
 
 Ideas for future versions:
 
+* native launcher visibility option
+  A dedicated configuration option may be added to replace the card_mod workaround.
 * multi-sheet stacking
 * snap positions
 * swipe gestures
