@@ -426,8 +426,7 @@ Pull requests and improvements are welcome.
 
 Ideas for future versions:
 
-* native launcher visibility option
-  A dedicated configuration option may be added to replace the card_mod workaround.
+* native launcher visibility option - a dedicated configuration option may be added to replace the card_mod workaround.
 * multi-sheet stacking
 * snap positions
 * swipe gestures
