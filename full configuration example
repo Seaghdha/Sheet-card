@@ -1,0 +1,79 @@
+type: custom:sheet-card
+
+# Unique sheet identifier (used for external triggers)
+sheet_id: example_sheet
+
+# Launcher
+icon: mdi:menu
+title: Sheet
+hint: ""
+
+launcher_mode: default        # default | icon
+launcher_size: 45             # size for icon mode
+launcher_radius: 10           # border radius for icon mode
+launcher_show_chevron: true
+launcher_class: ""
+launcher_style: |
+
+# Badge
+badge_template: |
+  [[[ return "" ]]]
+
+badge_style: |
+
+# Sheet position
+edge: right                   # right | left | top | bottom
+
+# Sheet dimensions
+width: 420                    # for left/right sheets
+height: 60vh                  # for top/bottom sheets
+
+# Panel appearance
+radius: 20
+inset: 8
+
+panel_background: ""
+panel_backdrop_filter: ""
+panel_style: |
+
+# Scrim (background overlay)
+scrim: true
+scrim_color: 0,0,0
+scrim_opacity: 0.35
+scrim_blur: 0
+scrim_style: |
+
+# Header controls
+show_header: true
+show_close: true
+show_handle: true
+
+# Behaviour
+close_on_esc: true
+close_on_scrim: true
+auto_close_on_navigation: true
+
+# Drag interaction
+drag_to_close: true
+drag_handle_only: false
+drag_threshold: 0.28
+drag_velocity: 900
+
+# Content
+content_padding: 0
+
+# Animation
+transition_ms: 240
+easing: cubic-bezier(0.16, 1, 0.3, 1)
+
+# Launcher behaviour
+open_on: card                 # card | icon
+
+# External trigger entity (optional)
+open_button: ""
+
+# Lovelace card inside sheet
+card:
+  type: entities
+  entities:
+    - entity: light.example
